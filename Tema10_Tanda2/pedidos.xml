@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raiz>
+  <pedidos fecha="14-03">
+    <pedido>
+      <primero>Soup</primero>
+      <principal>Chicken wings</principal>
+      <adicionales>
+        <adicional>Wine</adicional>
+      </adicionales>
+    </pedido>
+  </pedidos>
+  <pedidos fecha="31-4">
+    <pedido>
+      <primero>Soup</primero>
+      <principal>Cod Fish</principal>
+      <adicionales>
+        <adicional>Cheese</adicional>
+      </adicionales>
+    </pedido>
+  </pedidos>
+  <pedidos fecha="18-5">
+    <pedido>
+      <primero>Green salad</primero>
+      <principal>Chicken wings</principal>
+      <adicionales>
+        <adicional>Mineral wate</adicional>
+      </adicionales>
+    </pedido>
+    <pedido>
+      <primero>Grilled veg</primero>
+      <principal>Lamb chops</principal>
+      <adicionales>
+        <adicional>Wine</adicional>
+      </adicionales>
+    </pedido>
+  </pedidos>
+  <pedidos fecha="19-5">
+    <pedido>
+      <primero>Soup</primero>
+      <principal>Spanish paella</principal>
+      <adicionales>
+        <adicional>Cheese</adicional>
+        <adicional>Mineral wate</adicional>
+      </adicionales>
+    </pedido>
+  </pedidos>
+  <pedidos fecha="28-8">
+    <pedido>
+      <primero>Green salad</primero>
+      <principal>Lamb chops</principal>
+      <adicionales>
+        <adicional>Wine</adicional>
+        <adicional>Cheese</adicional>
+      </adicionales>
+    </pedido>
+  </pedidos>
+</raiz>
