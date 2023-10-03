@@ -1,0 +1,8 @@
+*.class
+
+output.txt
+manager.db
+*.log
+
+.vscode
+output.csv
