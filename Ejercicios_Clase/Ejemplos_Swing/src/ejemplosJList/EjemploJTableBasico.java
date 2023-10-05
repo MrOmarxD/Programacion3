@@ -10,8 +10,9 @@ import javax.swing.JTable;
 import javax.swing.SwingUtilities;
 import javax.swing.table.DefaultTableModel;
 
-import es.deusto.prog3.Person;
+import tema3A.Person;
 
+@SuppressWarnings("serial")
 public class EjemploJTableBasico extends JFrame{
 
 	/**
@@ -35,7 +36,7 @@ public class EjemploJTableBasico extends JFrame{
 		tableModel.addColumn("Nacimiento");
 		
 		for (Person p : personas) {
-			String[] fila = { p.getNombre(), p.getApellido(), p.getNacimiento().toString() };
+			String[] fila = { p.getName(), p.getSurname(), p.getBirthDate().toString() };
 			tableModel.addRow(fila); // añadimos los datos de la fila al modelo.
 		}
 		
@@ -53,5 +54,9 @@ public class EjemploJTableBasico extends JFrame{
 				new EjemploJTableBasico();
 			}
 		});
+	}
+
+	public static long getSerialversionid() {
+		return serialversionID;
 	}
 }
