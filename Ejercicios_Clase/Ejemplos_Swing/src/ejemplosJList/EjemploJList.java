@@ -8,6 +8,7 @@ import javax.swing.DefaultListModel;
 import javax.swing.JFrame;
 import javax.swing.JList;
 import javax.swing.JScrollPane;
+import javax.swing.ListSelectionModel;
 import javax.swing.SwingUtilities;
 
 import tema3A.Person;
@@ -16,7 +17,7 @@ public class EjemploJList extends JFrame{
 	/**
 	 * 
 	 */
-	private static final long serialversionID = 1L;
+	private static final long serialVersionUID = 1L;
 	
 	public EjemploJList() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -34,7 +35,10 @@ public class EjemploJList extends JFrame{
 		
 		JList<Person> jList = new JList<Person>(listModel);
 		
-		//jList.setSelectionMode(ListSelectionMode.SINGLE_SELECTION);
+		// la lista solamente admite selección sencilla
+		jList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		
+		// se establece el renderer para los elementos de la lista
 		//jList.setCellRenderer(new MyCellRenderer());
 		
 		
