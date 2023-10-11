@@ -138,6 +138,42 @@ public class VentanaDeustoBeReal extends JFrame {
 		});
 		
 		// T3a: Renderer/eventos para mouseover
+		class MyRenderer extends JLabel implements TableCellRenderer{
+
+			/**
+			 * 
+			 */
+			private static final long serialVersionUID = 1L;
+
+			@Override
+			public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected,
+					boolean hasFocus, int row, int column) {
+				
+				setText(value.toString());
+				
+				if(hasFocus) {
+					setBackground(Color.BLUE);
+					setOpaque(true);
+				}else {
+					setOpaque(false);
+				}
+				
+				return this;
+			}
+			
+		}
+		
+		tFotos.setDefaultRenderer(Object.class, new MyRenderer());
+		tFotos.addMouseListener(new MouseAdapter() {
+
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				e.getSource();
+				System.out.println(e);
+				System.out.println((e.getSource()));
+			}
+			
+		});
 		
 		// T3b: Eventos para lanzar botón
 	}
