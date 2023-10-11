@@ -17,6 +17,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableCellRenderer;
 
@@ -147,14 +149,27 @@ public class EjemploJTableBasico2 extends JFrame {
 			@Override
 			public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected,
 					boolean hasFocus, int row, int column) {
-				setText(value.toString());
-				if(!campoBusqueda.getText().isBlank() && getText().contains(campoBusqueda.getText())) {
+				String cellText = value.toString();
+				
+				//Pone el fondo rojo las casillas que contengan el string que aparece en el campo de busqueda
+				/*if(!campoBusqueda.getText().isBlank() && getText().contains(campoBusqueda.getText())) {
 					setBackground(Color.RED);
 					setOpaque(true);
 				}
 				else {
 					setOpaque(false);
+				}*/
+				
+				//Pone en negrita el string que aparece en las celdas
+				if(!campoBusqueda.getText().isBlank() && cellText.startsWith(campoBusqueda.getText())) {
+					setText(String.format("<html><b>%s</b>%s</htnml>",
+							campoBusqueda.getText(),
+							cellText.substring(campoBusqueda.getText().length())
+							));
+				}else {
+					setText(cellText);
 				}
+				
 				return this;
 			}
 			
@@ -184,7 +199,7 @@ public class EjemploJTableBasico2 extends JFrame {
 		});
 		
 		//TextFild, campo de busqueda
-		campoBusqueda.addActionListener(new ActionListener() {
+		/*campoBusqueda.addActionListener(new ActionListener() {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
@@ -192,7 +207,26 @@ public class EjemploJTableBasico2 extends JFrame {
 					
 				}
 			}
+		});*/
+		/// evento para detectar el cambio del string de búsqueda
+		campoBusqueda.getDocument().addDocumentListener(new DocumentListener() {
+			
+			@Override
+			public void removeUpdate(DocumentEvent e) {
+				jTable.repaint();
+			}
+			
+			@Override
+			public void insertUpdate(DocumentEvent e) {
+				jTable.repaint();			
+			}
+			
+			@Override
+			public void changedUpdate(DocumentEvent e) {
+				//
+			}
 		});
+		
 		panelDeAbajo.add(campoBusqueda);
 		
 		setVisible(true);
