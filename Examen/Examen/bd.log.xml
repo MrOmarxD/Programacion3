@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-10-11T12:25:50.233225300Z</date>
+  <millis>1697027150233</millis>
+  <nanos>225300</nanos>
+  <sequence>0</sequence>
+  <logger>BD-local</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaBD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Error en conexión de base de datos res/examen/parc202211/bd/deustoBeReal.db</message>
+  <exception>
+    <message>java.lang.ClassNotFoundException: org.sqlite.JDBC</message>
+    <frame>
+      <class>jdk.internal.loader.BuiltinClassLoader</class>
+      <method>loadClass</method>
+      <line>641</line>
+    </frame>
+    <frame>
+      <class>jdk.internal.loader.ClassLoaders$AppClassLoader</class>
+      <method>loadClass</method>
+      <line>188</line>
+    </frame>
+    <frame>
+      <class>java.lang.ClassLoader</class>
+      <method>loadClass</method>
+      <line>520</line>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName0</method>
+    </frame>
+    <frame>
+      <class>java.lang.Class</class>
+      <method>forName</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>examen.parc202211.data.ServicioPersistenciaBD</class>
+      <method>init</method>
+      <line>57</line>
+    </frame>
+    <frame>
+      <class>examen.parc202211.data.ServicioPersistenciaBD</class>
+      <method>initDatosTest</method>
+      <line>81</line>
+    </frame>
+    <frame>
+      <class>examen.parc202211.Main</class>
+      <method>main</method>
+      <line>38</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2023-10-11T12:25:50.404092500Z</date>
+  <millis>1697027150404</millis>
+  <nanos>92500</nanos>
+  <sequence>1</sequence>
+  <logger>BD-local</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaBD</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Lanzada consulta a base de datos: select * from usuario</message>
+</record>
+</log>
