@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<platos>
+	<plato tipo="principal" nombre="Lamb chops">
+		<precio>14.2</precio>
+	</plato >
+	<plato tipo="entrante" nombre="Grilled veg">
+		<precio>8.5</precio>
+	</plato >
+	<plato tipo="adicional" nombre="Wine">
+		<precio>2</precio>
+		<imagen>img/wine.jpg</imagen>
+	</plato >
+	<plato tipo="adicional" nombre="Cheese">
+		<precio>3</precio>
+	</plato >
+	<plato tipo="principal" nombre="Cod Fish">
+		<precio>5.7</precio>
+	</plato >
+	<plato tipo="entrante" nombre="Soup">
+		<precio>3.2</precio>
+		<imagen>img/soup.jpg</imagen>
+	</plato >
+	<plato tipo="principal" nombre="Spanish paella">
+		<precio>11.9</precio>
+	</plato >
+	<plato tipo="entrante" nombre="Green salad">
+		<precio>4</precio>
+	</plato >
+	<plato tipo="adicional" nombre="Mineral wate">
+		<precio>1</precio>
+	</plato >
+	<plato tipo="principal" nombre="Chicken wings">
+		<precio>6.9</precio>
+		<imagen>img/wings.jpg</imagen>
+	</plato >
+</platos>
