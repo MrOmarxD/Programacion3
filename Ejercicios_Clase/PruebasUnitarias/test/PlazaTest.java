@@ -1,5 +1,6 @@
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -32,6 +33,20 @@ public class PlazaTest {
 	@Test
 	public void testSetPrecioHora() {
 		p.setPrecioHora(3f);
-		assertEquals(p.getPrecioHora(), 3f, 0.1);
+		assertEquals(3f, p.getPrecioHora(), 0.0001);
 	}
+	
+	 @Test
+    public void testSetOcupada() {
+    	// ahora vamos a comprobar a cambiar el estado de la plaza
+    	// y ver si se ha cambiado correctamente;
+    	p.setOcupada(true);
+    	assertTrue(p.getOcupada());
+    }
+    
+    @Test
+    public void testToString() {
+    	// comprobamos que el string construido sea el correcto
+    	assertEquals("2: 2", p.toString());
+    }
 }
