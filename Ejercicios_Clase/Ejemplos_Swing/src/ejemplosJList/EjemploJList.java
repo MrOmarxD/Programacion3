@@ -10,6 +10,8 @@ import javax.swing.JList;
 import javax.swing.JScrollPane;
 import javax.swing.ListSelectionModel;
 import javax.swing.SwingUtilities;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 import tema3A.Person;
 
@@ -37,6 +39,17 @@ public class EjemploJList extends JFrame{
 		
 		// la lista solamente admite selección sencilla
 		jList.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+		
+		// Evento, al selecionar una opcion, imprime su fecha de nacimiento
+		jList.addListSelectionListener(new ListSelectionListener() {
+			
+			@Override
+			public void valueChanged(ListSelectionEvent e) {
+				if(!e.getValueIsAdjusting()) {
+					System.out.println(jList.getSelectedValue().getBirthDate());
+				}
+			}
+		});
 		
 		// se establece el renderer para los elementos de la lista
 		//jList.setCellRenderer(new MyCellRenderer());

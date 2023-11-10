@@ -13,7 +13,7 @@ public class Ejercicio12 {
 	//productos de la primera lista. Se considera que dos Productos son iguales si tienen el
 	//mismo id.
 	public static List<Producto> eliminarDuplicados(List<Producto> productos){
-		Set<Producto> setProductos = new LinkedHashSet()<>(productos);
+		Set<Producto> setProductos = new LinkedHashSet<>(productos);
 		return new ArrayList<>(setProductos);
 	}
 }
