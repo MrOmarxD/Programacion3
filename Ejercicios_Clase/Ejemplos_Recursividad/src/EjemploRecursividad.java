@@ -10,7 +10,7 @@ public class EjemploRecursividad {
 	public static void contarRecursivo(int n, int cont) {
 		System.out.println(cont);
 		if(cont < n)
-			contarRecursivo(n, cont+1);
+			contarRecursivo(n, ++cont);
 	}
 	public static void main(String[] args) {
 		contarRecursivo(10, 0);
