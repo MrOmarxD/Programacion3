@@ -41,10 +41,12 @@ public class EjemploRecursividad {
 		return mcdRecursivo(n, m - n);
 	}
 	
-	public static int fibonachiRec(int n) {
+	public static int fibonacciRec(int n) {
 		if(n == 0) return 0;
 		if(n == 1) return 1;
-		return fibonachiRec(n);
+		int f = fibonacciRec(n - 1);
+		int g = fibonacciRec(n - 2);
+		return f + g;
 	}
 	
 	public static void main(String[] args) {
@@ -54,5 +56,7 @@ public class EjemploRecursividad {
 		System.out.println("El mcd de 7 y 5 es: " + mcdRecursivo(7,5));
 		System.out.println("El mcd de 8 y 12 es: " + mcdRecursivo(4,12));
 		System.out.println("El mcd de 35 y 7 es: " + mcdRecursivo(35,7));*/
+		int n = 9;
+		System.out.println("En la posicion " + n + " de fibonacci: " + fibonacciRec(n));
 	}
 }
