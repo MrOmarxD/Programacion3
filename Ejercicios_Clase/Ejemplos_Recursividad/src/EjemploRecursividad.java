@@ -44,9 +44,7 @@ public class EjemploRecursividad {
 	public static int fibonacciRec(int n) {
 		if(n == 0) return 0;
 		if(n == 1) return 1;
-		int f = fibonacciRec(n - 1);
-		int g = fibonacciRec(n - 2);
-		return f + g;
+		return fibonacciRec(n - 1) + fibonacciRec(n - 2);
 	}
 	
 	public static void main(String[] args) {
