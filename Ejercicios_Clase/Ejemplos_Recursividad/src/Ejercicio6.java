@@ -22,6 +22,4 @@ public class Ejercicio6 {
 		String str = "23#4#";
 		System.out.println(generarstringNumericos(str, lstStr));
 	}
-	
-	//Para casa 8,9,10 y 11
 }
