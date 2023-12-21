@@ -1,30 +1,17 @@
 
 public class Ejercicio11 {
+	private final static char[] HEXADECIMAL = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 
+			'A', 'B', 'C', 'D', 'E', 'F'};
 
 	//Método longAHexa que recibe un long y devuelve su conversión a hexadecimal
-	public static String longAHexa(long num, String str) {
-		if(num == 0) return str;
-		if(num < 15) {
-			switch (num+"") { 
-		    case "14":
-		    	return str + 'E';
-			case "13":
-		    	return str + 'D';
-			case "12":
-		    	return str + 'C';
-			case "11":
-		    	return str + 'B';
-			case "10":
-		    	return str + 'A';
-			default:
-				return str + num;
-			}
-		}
-		return longAHexa(num -15, str + 'F');
+	public static String longAHexa(long num) {
+		if(num == 0) return "";
+		int resto = (int) num % 16;
+		return longAHexa(num / 16) + HEXADECIMAL[resto];
 	}
 	
 	public static void main(String[] args) {
-		long num = 42;
-		System.out.println(num + " - " + longAHexa(num, ""));
+		long num = 30;
+		System.out.println(num + " - " + longAHexa(num));
 	}
 }
