@@ -10,11 +10,13 @@ public class Ejercicio05 {
 
 		@Override
 		public int compare(Producto a, Producto b) {
-			return a.getId().compareTo(b.getId());		}
+			return a.getId() - b.getId();		
+		}
 	}
 	
 	// Recibe una lista de Productos y la devuelve ordenada por el identificador de pedido
-	public static List ordenarProductosId(List<Producto> lista) {
-		
+	public static List<Producto> ordenarProductosId(List<Producto> lista) {
+		lista.sort(new ComparadorProductosId());
+		return lista;
 	}
 }

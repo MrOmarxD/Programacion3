@@ -22,5 +22,6 @@ public class Ejercicio06 {
 	//a más lejana en el tiempo
 	public static List<Producto> ordenarProductosEntrega(List<Producto> productos) {
 		Collections.sort(productos, Collections.reverseOrder());
+		return productos;
 	}
 }

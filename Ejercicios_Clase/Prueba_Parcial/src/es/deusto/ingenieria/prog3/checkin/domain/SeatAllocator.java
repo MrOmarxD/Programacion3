@@ -1,6 +1,8 @@
 package es.deusto.ingenieria.prog3.checkin.domain;
 
 import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -45,7 +47,12 @@ public class SeatAllocator {
 	//Este mapa se utilizará como una estructura de datos auxiliar para 
 	//buscar los asientos recomendados al realizar el Check-in.
 	public Map<Integer, List<Seat>> initRowsMap(List<Seat> seats) {
-		return null;
+		Map<Integer, List<Seat>> mapa = new HashMap<>();
+		for(Seat s: seats) {
+			mapa.putIfAbsent(s.getRow(), new ArrayList<>());
+			mapa.get(s.getRow()).add(s);
+		}
+		return mapa;
 	}
 
 	//TAREA 5. Crea una estructura de datos compleja a partir de otra [2,5 puntos]
@@ -69,7 +76,26 @@ public class SeatAllocator {
 	//de listas [[1C,1D], [2C,2D], [3C,3D], [4C,4D], [5C, 5D], [6C, 6D], [7C,7D]], 
 	//y si se piden 3 de FIRST_CLASS, lista vacía.
 	public List<List<Seat>> findAdjacentGroups(SeatClass seatClass, int number, Map<Integer, List<Seat>> seatsMap) {
-		return null;
+		List<List<Seat>> l = new ArrayList<>();
+		for(int fila: seatsMap.keySet()) {
+			if(!seatsMap.get(fila).get(0).getSeatClass().equals(seatClass))
+				continue;
+			List<Seat> libres = new ArrayList<>();
+			for(Seat s: seatsMap.get(fila)) {
+				if(!s.occupied) {
+					libres.add(s);
+				}else {
+					if(libres.size() >= number)
+						l.add(new ArrayList<>(libres));
+					libres.clear();
+				}
+			}
+			if(libres.size() >= number)
+				l.add(new ArrayList<>(libres));
+			else
+				libres.clear();
+		}
+		return l;
 	}
 	
 	//TAREA 6. Ordena una lista usando 2 criterios [1,5 puntos] 
@@ -78,8 +104,23 @@ public class SeatAllocator {
 	//- Criterio 1: De menor a mayor número de asientos de la lista.
 	//- Criterio 2: Si dos listas coinciden en el número de asientos, 
 	//  ordenarlas de mayor a menor número de fila de los asientos de la lista.
+	
+	static class ComparadorSize implements Comparator<List<Seat>>{
+		@Override
+		public int compare(List<Seat> a, List<Seat> b) {
+			int i = a.size() - b.size();
+			if(i == 0) {
+				for(int j = 0; j < a.size(); j++) {
+					if(a.get(j).getRow() > b.get(j).getRow()) return (a.get(j).getRow() - b.get(j).getRow()) * - 1;
+					if(a.get(j).getRow() < b.get(j).getRow()) return a.get(j).getRow() - b.get(j).getRow();
+				}
+			}
+			return i;
+		}
+	}
+	
 	public void orderAdjacentGroups(List<List<Seat>> adjacentGroups) {
-
+		adjacentGroups.sort(new ComparadorSize());
 	}
 		
 	public List<Seat> findSeats(SeatClass seatClass, int number) {

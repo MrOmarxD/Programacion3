@@ -1,4 +1,8 @@
 import org.junit.Test;
+
+import tema4.Ejercicio06;
+import tema4.Producto;
+
 import static org.junit.Assert.assertEquals;
 
 import java.time.LocalDate;

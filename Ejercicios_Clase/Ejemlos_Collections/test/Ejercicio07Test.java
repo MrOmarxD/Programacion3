@@ -1,4 +1,7 @@
 import org.junit.Test;
+
+import tema4.Ejercicio07;
+
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertFalse;
 
