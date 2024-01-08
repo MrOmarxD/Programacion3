@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-08T18:57:45.385644900Z</date>
+  <millis>1704740265385</millis>
+  <nanos>644900</nanos>
+  <sequence>0</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F1 de (U1) leidiNana en (C1) Jollibus</message>
+</record>
+<record>
+  <date>2024-01-08T18:57:45.469643900Z</date>
+  <millis>1704740265469</millis>
+  <nanos>643900</nanos>
+  <sequence>1</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F4 de (U1) leidiNana en (C1) Jollibus</message>
+</record>
+<record>
+  <date>2024-01-08T18:57:45.472643500Z</date>
+  <millis>1704740265472</millis>
+  <nanos>643500</nanos>
+  <sequence>2</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F5 de (U1) leidiNana en (C2) Bar Neveu</message>
+</record>
+<record>
+  <date>2024-01-08T18:57:45.475644100Z</date>
+  <millis>1704740265475</millis>
+  <nanos>644100</nanos>
+  <sequence>3</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F2 de (U2) Ronaldus en (C2) Bar Neveu</message>
+</record>
+<record>
+  <date>2024-01-08T18:57:45.477646600Z</date>
+  <millis>1704740265477</millis>
+  <nanos>646600</nanos>
+  <sequence>4</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F3 de (U2) Ronaldus en (C1) Jollibus</message>
+</record>
+<record>
+  <date>2024-01-08T18:57:45.481644300Z</date>
+  <millis>1704740265481</millis>
+  <nanos>644300</nanos>
+  <sequence>5</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F6 de (U2) Ronaldus en (C3) Tuich</message>
+</record>
+<record>
+  <date>2024-01-08T18:57:45.483642100Z</date>
+  <millis>1704740265483</millis>
+  <nanos>642100</nanos>
+  <sequence>6</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F7 de (U2) Ronaldus en (C3) Tuich</message>
+</record>
+<record>
+  <date>2024-01-08T18:57:45.485640100Z</date>
+  <millis>1704740265485</millis>
+  <nanos>640100</nanos>
+  <sequence>7</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F8 de (U3) Iway en (C3) Tuich</message>
+</record>
+<record>
+  <date>2024-01-08T18:57:45.488642800Z</date>
+  <millis>1704740265488</millis>
+  <nanos>642800</nanos>
+  <sequence>8</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F9 de (U3) Iway en (C3) Tuich</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2024-01-08T19:16:52.614304900Z</date>
+  <millis>1704741412614</millis>
+  <nanos>304900</nanos>
+  <sequence>0</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Ruta de fotos res/examen/parc202211/ejecucion no se ha podido respaldar en el servicio de persistencia</message>
+  <exception>
+    <message>java.nio.file.NoSuchFileException: res\examen\parc202211\ejecucion</message>
+    <frame>
+      <class>sun.nio.fs.WindowsException</class>
+      <method>translateToIOException</method>
+      <line>85</line>
+    </frame>
+    <frame>
+      <class>sun.nio.fs.WindowsException</class>
+      <method>rethrowAsIOException</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>sun.nio.fs.WindowsException</class>
+      <method>rethrowAsIOException</method>
+      <line>108</line>
+    </frame>
+    <frame>
+      <class>sun.nio.fs.WindowsFileSystemProvider</class>
+      <method>createDirectory</method>
+      <line>521</line>
+    </frame>
+    <frame>
+      <class>java.nio.file.Files</class>
+      <method>createDirectory</method>
+      <line>700</line>
+    </frame>
+    <frame>
+      <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+      <method>init</method>
+      <line>46</line>
+    </frame>
+    <frame>
+      <class>examen.parc202211.Main</class>
+      <method>main</method>
+      <line>27</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.716919900Z</date>
+  <millis>1704741412716</millis>
+  <nanos>919900</nanos>
+  <sequence>1</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Ruta de fotos res/examen/parc202211/ejecucion no se ha podido respaldar en el servicio de persistencia</message>
+  <exception>
+    <message>java.nio.file.NoSuchFileException: res\examen\parc202211\ejecucion</message>
+    <frame>
+      <class>sun.nio.fs.WindowsException</class>
+      <method>translateToIOException</method>
+      <line>85</line>
+    </frame>
+    <frame>
+      <class>sun.nio.fs.WindowsException</class>
+      <method>rethrowAsIOException</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>sun.nio.fs.WindowsException</class>
+      <method>rethrowAsIOException</method>
+      <line>108</line>
+    </frame>
+    <frame>
+      <class>sun.nio.fs.WindowsFileSystemProvider</class>
+      <method>createDirectory</method>
+      <line>521</line>
+    </frame>
+    <frame>
+      <class>java.nio.file.Files</class>
+      <method>createDirectory</method>
+      <line>700</line>
+    </frame>
+    <frame>
+      <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+      <method>initDatosTest</method>
+      <line>78</line>
+    </frame>
+    <frame>
+      <class>examen.parc202211.Main</class>
+      <method>main</method>
+      <line>29</line>
+    </frame>
+  </exception>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.769073600Z</date>
+  <millis>1704741412769</millis>
+  <nanos>73600</nanos>
+  <sequence>2</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Fichero res/examen/parc202211/init/gaga1.jpg no encontrado al intentar guardar foto F1 de (U1) leidiNana en (C1) Jollibus</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.771074900Z</date>
+  <millis>1704741412771</millis>
+  <nanos>74900</nanos>
+  <sequence>3</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F1 de (U1) leidiNana en (C1) Jollibus</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.773072Z</date>
+  <millis>1704741412773</millis>
+  <nanos>72000</nanos>
+  <sequence>4</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Fichero res/examen/parc202211/init/gaga2.jpg no encontrado al intentar guardar foto F4 de (U1) leidiNana en (C1) Jollibus</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.777070200Z</date>
+  <millis>1704741412777</millis>
+  <nanos>70200</nanos>
+  <sequence>5</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F4 de (U1) leidiNana en (C1) Jollibus</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.779073Z</date>
+  <millis>1704741412779</millis>
+  <nanos>73000</nanos>
+  <sequence>6</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Fichero res/examen/parc202211/init/gaga3.jpg no encontrado al intentar guardar foto F5 de (U1) leidiNana en (C2) Bar Neveu</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.781072Z</date>
+  <millis>1704741412781</millis>
+  <nanos>72000</nanos>
+  <sequence>7</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F5 de (U1) leidiNana en (C2) Bar Neveu</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.782070900Z</date>
+  <millis>1704741412782</millis>
+  <nanos>70900</nanos>
+  <sequence>8</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Fichero res/examen/parc202211/init/ronaldo1.jpg no encontrado al intentar guardar foto F2 de (U2) Ronaldus en (C2) Bar Neveu</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.782070900Z</date>
+  <millis>1704741412782</millis>
+  <nanos>70900</nanos>
+  <sequence>9</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F2 de (U2) Ronaldus en (C2) Bar Neveu</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.783070300Z</date>
+  <millis>1704741412783</millis>
+  <nanos>70300</nanos>
+  <sequence>10</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Fichero res/examen/parc202211/init/ronaldo2.jpg no encontrado al intentar guardar foto F3 de (U2) Ronaldus en (C1) Jollibus</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.788069500Z</date>
+  <millis>1704741412788</millis>
+  <nanos>69500</nanos>
+  <sequence>11</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F3 de (U2) Ronaldus en (C1) Jollibus</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.789069300Z</date>
+  <millis>1704741412789</millis>
+  <nanos>69300</nanos>
+  <sequence>12</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Fichero res/examen/parc202211/init/ronaldo3.jpg no encontrado al intentar guardar foto F6 de (U2) Ronaldus en (C3) Tuich</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.790069700Z</date>
+  <millis>1704741412790</millis>
+  <nanos>69700</nanos>
+  <sequence>13</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F6 de (U2) Ronaldus en (C3) Tuich</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.790069700Z</date>
+  <millis>1704741412790</millis>
+  <nanos>69700</nanos>
+  <sequence>14</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Fichero res/examen/parc202211/init/ronaldo4.jpg no encontrado al intentar guardar foto F7 de (U2) Ronaldus en (C3) Tuich</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.791069900Z</date>
+  <millis>1704741412791</millis>
+  <nanos>69900</nanos>
+  <sequence>15</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F7 de (U2) Ronaldus en (C3) Tuich</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.791069900Z</date>
+  <millis>1704741412791</millis>
+  <nanos>69900</nanos>
+  <sequence>16</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Fichero res/examen/parc202211/init/ibai1.jpg no encontrado al intentar guardar foto F8 de (U3) Iway en (C3) Tuich</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.792334900Z</date>
+  <millis>1704741412792</millis>
+  <nanos>334900</nanos>
+  <sequence>17</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F8 de (U3) Iway en (C3) Tuich</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.794350100Z</date>
+  <millis>1704741412794</millis>
+  <nanos>350100</nanos>
+  <sequence>18</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Fichero res/examen/parc202211/init/ibai2.jpg no encontrado al intentar guardar foto F9 de (U3) Iway en (C3) Tuich</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:52.794350100Z</date>
+  <millis>1704741412794</millis>
+  <nanos>350100</nanos>
+  <sequence>19</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>INFO</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Inserción de foto correcta: F9 de (U3) Iway en (C3) Tuich</message>
+</record>
+<record>
+  <date>2024-01-08T19:16:54.991060600Z</date>
+  <millis>1704741414991</millis>
+  <nanos>60600</nanos>
+  <sequence>20</sequence>
+  <logger>persistencia-ficheros</logger>
+  <level>SEVERE</level>
+  <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+  <method>log</method>
+  <thread>20</thread>
+  <message>No se ha podido guardar el fichero de persistencia res/examen/parc202211/ejecucion/deustoBeReal.dat</message>
+  <exception>
+    <message>java.io.FileNotFoundException: res\examen\parc202211\ejecucion\deustoBeReal.dat (El sistema no puede encontrar la ruta especificada)</message>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open0</method>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>open</method>
+      <line>293</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>235</line>
+    </frame>
+    <frame>
+      <class>java.io.FileOutputStream</class>
+      <method>&lt;init&gt;</method>
+      <line>184</line>
+    </frame>
+    <frame>
+      <class>examen.parc202211.data.ServicioPersistenciaFicheros</class>
+      <method>close</method>
+      <line>117</line>
+    </frame>
+    <frame>
+      <class>examen.parc202211.gui.VentanaDeustoBeReal$1</class>
+      <method>windowClosing</method>
+      <line>94</line>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>processWindowEvent</method>
+      <line>2085</line>
+    </frame>
+    <frame>
+      <class>javax.swing.JFrame</class>
+      <method>processWindowEvent</method>
+      <line>298</line>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>processEvent</method>
+      <line>2044</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEventImpl</method>
+      <line>5001</line>
+    </frame>
+    <frame>
+      <class>java.awt.Container</class>
+      <method>dispatchEventImpl</method>
+      <line>2324</line>
+    </frame>
+    <frame>
+      <class>java.awt.Window</class>
+      <method>dispatchEventImpl</method>
+      <line>2780</line>
+    </frame>
+    <frame>
+      <class>java.awt.Component</class>
+      <method>dispatchEvent</method>
+      <line>4833</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEventImpl</method>
+      <line>773</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>722</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$4</class>
+      <method>run</method>
+      <line>716</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <line>399</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>86</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>97</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+      <line>746</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue$5</class>
+      <method>run</method>
+      <line>744</line>
+    </frame>
+    <frame>
+      <class>java.security.AccessController</class>
+      <method>doPrivileged</method>
+      <line>399</line>
+    </frame>
+    <frame>
+      <class>java.security.ProtectionDomain$JavaSecurityAccessImpl</class>
+      <method>doIntersectionPrivilege</method>
+      <line>86</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventQueue</class>
+      <method>dispatchEvent</method>
+      <line>743</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpOneEventForFilters</method>
+      <line>203</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForFilter</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEventsForHierarchy</method>
+      <line>113</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>109</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>pumpEvents</method>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>java.awt.EventDispatchThread</class>
+      <method>run</method>
+      <line>90</line>
+    </frame>
+  </exception>
+</record>
+</log>
