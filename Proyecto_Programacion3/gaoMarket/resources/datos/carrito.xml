@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carritos>
+  <carrito usuario="gorka">
+    <producto nombre="Detergente">
+      <tipo>LIMPIEZA</tipo>
+      <cantidad>1</cantidad>
+    </producto>
+    <producto nombre="Soda">
+      <tipo>ALIMENTO</tipo>
+      <cantidad>1</cantidad>
+    </producto>
+  </carrito>
+  <carrito usuario="" />
+</carritos>

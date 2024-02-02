@@ -1,0 +1,61 @@
+Id;Nombre;Imagen;Cantidad;Precio;TipoProducto;Categoria;Estado;Descuento
+1;Manzanas;manzanas.png;53;3.55;ALIMENTO;FRUTAS;NORMAL;0
+2;Shampoo;shampoo.png;28;4.99;HIGIENE_Y_BELLEZA;CUIDADO_CABELLO;NORMAL;0
+3;Detergente;detergente.png;75;6.99;LIMPIEZA;PRODUCTOS_LIMPIEZA;NORMAL;0
+4;Pollo;pollo.png;21;3.99;ALIMENTO;CARNICOS;NORMAL;0
+5;Jab�n de manos;jabon_manos.png;0;2.49;HIGIENE_Y_BELLEZA;HIGIENE_INTIMA;AGOTADO;0
+6;Escoba;escoba.png;61;2.99;LIMPIEZA;UTENSILIOS;NORMAL;0
+7;Soda;soda.png;89;1.99;ALIMENTO;BEBIDAS;NORMAL;0
+8;Crema facial;crema_facial.png;2;9.73;HIGIENE_Y_BELLEZA;CUIDADO_CORPORAL;POCAS_UNIDADES;0
+9;Lavaplatos;lavaplatos.png;37;4.49;LIMPIEZA;PRODUCTOS_LIMPIEZA;NORMAL;0
+10;Chocolate;chocolate.png;50;5.99;ALIMENTO;DULCES;NORMAL;0
+11;Tomates;tomates.png;28;2.99;ALIMENTO;VEGETALES;NORMAL;0
+12;Toallas;towels.png;43;1.99;HIGIENE_Y_BELLEZA;HIGIENE_INTIMA;NORMAL;0
+13;Limpiacristales;limpiacristales.png;76;4.99;LIMPIEZA;PRODUCTOS_LIMPIEZA;NORMAL;0
+14;Yogurt;yogurt.png;19;2.49;ALIMENTO;CONGELADOS;NORMAL;0
+15;Cepillo de dientes;cepillo_dientes.png;31;1.49;HIGIENE_Y_BELLEZA;HIGIENE_BUCAL;NORMAL;0
+16;Papel higi�nico;papel_higienico.png;68;1.99;LIMPIEZA;UTENSILIOS;NORMAL;0
+17;Refresco;refresco.png;93;2.99;ALIMENTO;BEBIDAS;NORMAL;0
+18;Perfume;perfume.png;14;14.99;HIGIENE_Y_BELLEZA;CUIDADO_CORPORAL;NORMAL;20
+19;Limpiador multiusos;limpiador_multiusos.png;39;3.49;LIMPIEZA;PRODUCTOS_LIMPIEZA;NORMAL;0
+20;Galletas;galletas.png;52;3.99;ALIMENTO;DULCES;NORMAL;0
+21;Pescado;pescado.png;25;4.99;ALIMENTO;CARNICOS;NORMAL;0
+22;Champ�;champu.png;40;4.49;HIGIENE_Y_BELLEZA;CUIDADO_CABELLO;NORMAL;0
+23;Pan;pandulce.png;25;2.49;ALIMENTO;PAN;NORMAL;10
+24;Aceite;aceite.png;40;7.63;ALIMENTO;CARNICOS;NORMAL;5
+25;Loci�n corporal;locion_corporal.png;18;12.0;HIGIENE_Y_BELLEZA;CUIDADO_CORPORAL;NORMAL;15
+26;Pasta dental;pasta_dental.png;55;2.79;HIGIENE_Y_BELLEZA;HIGIENE_BUCAL;NORMAL;0
+27;Lim�n;limon.png;30;1.49;ALIMENTO;VEGETALES;NORMAL;0
+28;Desodorante;desodorante.png;48;3.99;HIGIENE_Y_BELLEZA;CUIDADO_CORPORAL;NORMAL;0
+29;Queso;queso.png;22;6.49;ALIMENTO;LACTEOS;NORMAL;0
+30;Jugo de naranja;jugo_naranja.png;36;3.29;ALIMENTO;BEBIDAS;NORMAL;0
+31;Pa�uelos faciales;panuelos_faciales.png;42;1.89;HIGIENE_Y_BELLEZA;HIGIENE_INTIMA;NORMAL;0
+32;Carne de cerdo;carne_cerdo.png;20;5.99;ALIMENTO;CARNICOS;NORMAL;0
+33;Huevos;huevos.png;48;1.99;ALIMENTO;CARNICOS;NORMAL;0
+34;Acondicionador;acondicionador.png;27;5.49;HIGIENE_Y_BELLEZA;CUIDADO_CABELLO;NORMAL;0
+35;Papel toalla;papel_toalla.png;39;2.29;LIMPIEZA;UTENSILIOS;NORMAL;0
+36;Ensalada mixta;ensalada_mixta.png;33;4.79;ALIMENTO;VEGETALES;NORMAL;0
+37;Crema de afeitar;crema_afeitar.png;15;3.29;HIGIENE_Y_BELLEZA;AFEITADO_DEPILACION;NORMAL;0
+38;Az�car;azucar.png;50;1.49;ALIMENTO;DULCES;NORMAL;0
+39;Desinfectante de manos;desinfectante_manos.png;29;6.64;HIGIENE_Y_BELLEZA;HIGIENE_INTIMA;NORMAL;0
+40;Sopa enlatada;sopa_enlatada.png;24;2.89;ALIMENTO;CONGELADOS;NORMAL;0
+41;L�piz labial;lapiz_labial.png;19;8.72;HIGIENE_Y_BELLEZA;CUIDADO_CORPORAL;NORMAL;0
+42;Arroz;arroz.png;44;1.5;ALIMENTO;CEREALES;NORMAL;0
+43;Agua embotellada;agua_embotellada.png;60;0.69;ALIMENTO;BEBIDAS;NORMAL;0
+44;Toallitas h�medas;toallitas_humedas.png;37;3.44;HIGIENE_Y_BELLEZA;HIGIENE_INTIMA;NORMAL;0
+45;Mantequilla;mantequilla.png;26;4.22;ALIMENTO;LACTEOS;NORMAL;0
+46;Gel de ducha;gel_ducha.png;21;7.43;HIGIENE_Y_BELLEZA;CUIDADO_CORPORAL;NORMAL;0
+47;Cereal para el desayuno;cereal_desayuno.png;55;3.8;ALIMENTO;CEREALES;NORMAL;0
+48;Pilas;pilas.png;18;2.43;LIMPIEZA;PRODUCTOS_LIMPIEZA;NORMAL;0
+49;Salsa de tomate;salsa_tomate.png;31;15.21;ALIMENTO;CONGELADOS;NORMAL;0
+50;Secador de pelo;secador_pelo.png;12;19.99;HIGIENE_Y_BELLEZA;CUIDADO_CABELLO;NORMAL;0
+51;Palomitas de ma�z;palomitas_maiz.png;40;1.99;ALIMENTO;DULCES;NORMAL;0
+52;Almohadillas desmaquillantes;almohadillas_desmaquillantes.png;28;3.49;HIGIENE_Y_BELLEZA;CUIDADO_CORPORAL;NORMAL;0
+53;Pan integral;pan_integral.png;35;2.79;ALIMENTO;PAN;NORMAL;0
+54;Desinfectante para superficies;desinfectante_superficies.png;15;8.99;LIMPIEZA;PRODUCTOS_LIMPIEZA;NORMAL;0
+55;Sand�a;sandia.png;18;4.99;ALIMENTO;FRUTAS;NORMAL;0
+56;Lej�a;lejia.png;10;249.21;LIMPIEZA;UTENSILIOS;POCAS_UNIDADES;0
+57;Brochas de maquillaje;brochas_maquillaje.png;22;12.49;HIGIENE_Y_BELLEZA;CUIDADO_CORPORAL;NORMAL;0
+58;Miel;miel.png;30;5.49;ALIMENTO;DULCES;NORMAL;0
+59;Fregona;fregona.png;8;23.75;LIMPIEZA;UTENSILIOS;POCAS_UNIDADES;0
+60;Kit dental infantil;kit_dental_infantil.png;50;4.85;HIGIENE_Y_BELLEZA;HIGIENE_BUCAL;NORMAL;0
